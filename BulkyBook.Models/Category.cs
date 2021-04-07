@@ -10,6 +10,7 @@ namespace BulkyBook.Models
     public class Category
     {
         public int Id { get; set; }
+
         [Display(Name = "Category Name")]
         [Required]
         [MaxLength(50)]
