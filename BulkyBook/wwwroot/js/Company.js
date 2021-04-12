@@ -25,7 +25,7 @@ function loadDataTable() {
                         return `<input type="checkbox" disabled />`
                     }},
                 "width":"10%"
-            }
+            },
             {
                 "data": "id",
                 "render": function (data) {
@@ -39,11 +39,13 @@ function loadDataTable() {
                                 </a>
                             </div>
 `
-                }
+                },
+                "width":"25%"
             }
         ]
     });
 }
+
 function Delete(url) {
     swal({
         title: "Are you sure you want to delete?",
